@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoPrevención Store | Artículos de Emergencia ante el Fenómeno de El Niño</title>
+  <meta name="description" content="Tienda virtual comunitaria de artículos esenciales para prevenir y enfrentar el Fenómeno de El Niño: linternas LED, botas impermeables, impermeables, mochilas de emergencia, botiquines y botellas de agua. Pedidos rápidos por WhatsApp." />
+  <meta name="keywords" content="EcoPrevencion Store, Fenómeno El Niño, mochila de emergencia, botas impermeables, linterna LED, botiquín de primeros auxilios, prevención de desastres, Perú" />
+  
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="EcoPrevención Store - Prepárate ante El Niño" />
+  <meta property="og:description" content="Equípate con artículos esenciales de prevención ante lluvias torrenciales, inundaciones y emergencias. Precios justos y pedidos por WhatsApp." />
+  <meta property="og:image" content="img/hero.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/logo.png" />
+
+  <!-- Hoja de Estilos CSS3 Nativa -->
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+
+  <!-- ========================================================================
+       BARRA DE AVISO SUPERIOR (ALERTA COMUNITARIA)
+       ======================================================================== -->
+  <aside class="top-banner" aria-label="Aviso de prevención comunitaria">
+    <div class="contenedor">
+      <div class="top-banner-text">
+        <span>🌧️ ALERTA PREVENTIVA:</span>
+        <span>Equipa tu hogar ante el Fenómeno de El Niño. Entregas y atención prioritaria para familias.</span>
+      </div>
+      <div class="top-banner-links">
+        <a href="#contacto" class="top-banner-link">
+          <span>📞 Central de Emergencia</span>
+        </a>
+        <a href="#carrito" class="top-banner-link">
+          <span>🛒 Mi Carrito</span>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       ENCABEZADO Y NAVEGACIÓN PRINCIPAL
+       ======================================================================== -->
+  <header class="site-header" id="header">
+    <div class="contenedor header-container">
+      
+      <!-- LOGO DEL NEGOCIO (Ruta: img/logo.png) -->
+      <a href="#inicio" class="brand-logo-link" title="Ir al inicio de EcoPrevención Store">
+        <img 
+          src="img/logo.png" 
+          alt="EcoPrevención Store Logo" 
+          class="brand-logo-img" 
+          onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%231976D2\'/><path d=\'M50 20 L75 75 L25 75 Z\' fill=\'%2343A047\'/><text x=\'50\' y=\'65\' font-size=\'30\' fill=\'white\' text-anchor=\'middle\' font-weight=\'bold\'>EP</text></svg>';"
+        />
+        <div class="brand-info">
+          <span class="brand-name">EcoPrevención Store</span>
+          <span class="brand-tagline">Comunidad & Prevención</span>
+        </div>
+      </a>
+
+      <!-- Menú de Navegación -->
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+          <li><a href="#productos" class="nav-link">Productos</a></li>
+          <li><a href="#ofertas" class="nav-link">Ofertas</a></li>
+          <li><a href="#carrito" class="nav-link">Carrito</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botón de Carrito en Cabecera & Menú Móvil -->
+      <div class="header-actions">
+        <button 
+          type="button" 
+          class="cart-header-btn" 
+          id="btn-open-cart-drawer"
+          onclick="window.EcoApp.abrirDrawer()"
+          aria-label="Abrir carrito de compras"
+        >
+          <div class="cart-icon-wrapper">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+          </div>
+          <span class="cart-badge cart-badge-count">0</span>
+          <span class="cart-header-total cart-header-amount">S/ 0.00</span>
+        </button>
+
+        <button 
+          type="button" 
+          class="mobile-menu-btn" 
+          id="mobile-menu-btn" 
+          aria-label="Alternar menú de navegación"
+          aria-expanded="false"
+        >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+         1. SECCIÓN INICIO (HERO)
+         ====================================================================== -->
+    <section class="hero-section" id="inicio">
+      <div class="contenedor hero-grid">
+        
+        <div class="hero-text-content">
+          <div class="hero-badge-kicker">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            <span>Prevención Comunitaria Activa</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Protege a tu Familia y Hogar Frente al <span>Fenómeno de El Niño</span>
+          </h1>
+          
+          <p class="hero-description">
+            Enfrenta las lluvias torrenciales, inundaciones y cortes imprevistos con artículos de emergencia indispensables. Garantizamos precios accesibles, stock disponible y entregas oportunas para nuestra comunidad.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#productos" class="btn-primary">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              <span>Ver Catálogo de Artículos</span>
+            </a>
+            
+            <a href="#ofertas" class="btn-secondary">
+              <span>Ver Combos con Descuento</span>
+            </a>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="hero-stat-item">
+              <span class="hero-stat-number">100%</span>
+              <span class="hero-stat-label">Compromiso solidario</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-number">S/ Justos</span>
+              <span class="hero-stat-label">Sin especulación</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-number">WhatsApp</span>
+              <span class="hero-stat-label">Pedidos inmediatos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-card">
+            <img 
+              src="img/hero.jpg" 
+              alt="Preparación comunitaria y prevención de desastres por El Niño"
+              onerror="this.onerror=null; this.src='img/mochila.jpg';" 
+            />
+          </div>
+          
+          <div class="hero-floating-card">
+            <div class="icon-wrapper">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <div>
+              <p class="hero-floating-title">Artículos Certificados</p>
+              <p class="hero-floating-sub">Listos para armar tu mochila de 72 horas</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         2. SECCIÓN NOSOTROS (PROPÓSITO Y COMPROMISO)
+         ====================================================================== -->
+    <section class="nosotros-section seccion-padding" id="nosotros">
+      <div class="contenedor">
+        
+        <div class="section-header-centered">
+          <span class="section-kicker">Nuestra Identidad y Compromiso</span>
+          <h2 class="section-title">¿Por Qué Nace EcoPrevención Store?</h2>
+          <p class="section-subtitle">
+            Nuestro emprendimiento ayuda a nuestra comunidad ofreciendo productos indispensables para prevenir y resistir los estragos del Fenómeno de El Niño.
+          </p>
+        </div>
+
+        <div class="nosotros-grid">
+          
+          <article class="nosotros-card">
+            <div class="nosotros-card-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="nosotros-card-title">Propósito Solidario</h3>
+            <p class="nosotros-card-text">
+              Frente a lluvias desmedidas, huaicos y cortes eléctricos, encontrar implementos confiables suele ser difícil. Acercamos productos clave a cada familia de manera rápida, transparente y accesible.
+            </p>
+          </article>
+
+          <article class="nosotros-card highlight">
+            <div class="nosotros-card-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <h3 class="nosotros-card-title">Cultura de Prevención</h3>
+            <p class="nosotros-card-text">
+              La prevención salva vidas y protege el patrimonio del hogar. Fomentamos que cada vivienda cuente con un botiquín equipado, linterna funcional y su mochila de supervivencia lista antes de la emergencia.
+            </p>
+          </article>
+
+          <article class="nosotros-card">
+            <div class="nosotros-card-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 14 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="nosotros-card-title">Respuesta Inmediata</h3>
+            <p class="nosotros-card-text">
+              Sin procesos complicados. Puedes ordenar directamente mediante WhatsApp y coordinar la entrega o recojo en nuestro punto comunitario sin perder tiempo valioso.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. SECCIÓN PRODUCTOS (CATÁLOGO OFICIAL)
+         ====================================================================== -->
+    <section class="productos-section seccion-padding" id="productos">
+      <div class="contenedor">
+        
+        <div class="section-header-centered">
+          <span class="section-kicker">Catálogo de Artículos Esenciales</span>
+          <h2 class="section-title">Productos para Enfrentar la Emergencia</h2>
+          <p class="section-subtitle">
+            Selecciona los implementos necesarios para tu familia. Cada tarjeta cuenta con control de cantidad y botón directo para agregar a tu carrito de compras.
+          </p>
+        </div>
+
+        <!-- Filtros Rápidos por Categoría -->
+        <div class="filter-tabs-container">
+          <div class="filter-tabs" role="tablist" aria-label="Filtrar productos por categoría">
+            <button type="button" class="filter-tab-btn active" data-category="todos">Todos los Productos (6)</button>
+            <button type="button" class="filter-tab-btn" data-category="lluvia">Protección de Lluvias</button>
+            <button type="button" class="filter-tab-btn" data-category="energia">Iluminación & Energía</button>
+            <button type="button" class="filter-tab-btn" data-category="salud">Salud & Hidratación</button>
+            <button type="button" class="filter-tab-btn" data-category="emergencia">Supervivencia</button>
+          </div>
+        </div>
+
+        <!-- Contenedor dinámico de tarjetas de productos -->
+        <div class="products-grid" id="products-container" aria-live="polite">
+          <!-- Renderizado dinámicamente mediante js/script.js con los 6 productos oficiales -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         4. SECCIÓN OFERTAS (COMBOS Y PROMOCIONES)
+         ====================================================================== -->
+    <section class="ofertas-section seccion-padding" id="ofertas">
+      <div class="contenedor">
+        
+        <div class="section-header-centered">
+          <span class="section-kicker">Promociones Comunitarias</span>
+          <h2 class="section-title">Combos de Prevención con Descuento</h2>
+          <p class="section-subtitle">
+            Ahorra adquiriendo kits completos armados según las recomendaciones oficiales de Defensa Civil e INDECI.
+          </p>
+        </div>
+
+        <div class="ofertas-grid">
+          
+          <!-- Oferta 1: Combo Familiar Niño Costero -->
+          <article class="oferta-card">
+            <span class="oferta-tag">¡Más Recomendado!</span>
+            
+            <div class="oferta-header">
+              <h3 class="oferta-title">Combo Familiar "Niño Costero"</h3>
+              <p class="oferta-description">
+                El kit integral de máxima protección para tu hogar. Contiene los artículos indispensables para resistir lluvias prolongadas y cortes de energía.
+              </p>
+            </div>
+
+            <ul class="oferta-items-list">
+              <li class="oferta-item">
+                <svg class="oferta-item-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>1 Linterna LED de alto alcance (Precio individual: S/ 25.00)</span>
+              </li>
+              <li class="oferta-item">
+                <svg class="oferta-item-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>1 Mochila de emergencia 72 horas (Precio individual: S/ 55.00)</span>
+              </li>
+              <li class="oferta-item">
+                <svg class="oferta-item-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>1 Botiquín de primeros auxilios (Precio individual: S/ 35.00)</span>
+              </li>
+              <li class="oferta-item">
+                <svg class="oferta-item-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>1 Impermeable reforzado para lluvias (Precio individual: S/ 30.00)</span>
+              </li>
+            </ul>
+
+            <div class="oferta-pricing">
+              <div>
+                <span class="oferta-price-old">Precio regular: S/ 145.00</span>
+                <span class="oferta-ahorro">Ahorras S/ 20.00</span>
+              </div>
+              <div class="oferta-price-new">S/ 125.00</div>
+            </div>
+
+            <button 
+              type="button" 
+              class="btn-primary" 
+              style="width: 100%;" 
+              onclick="window.EcoApp.agregarComboFamiliar()"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+              <span>Agregar Combo Familiar al Carrito</span>
+            </button>
+          </article>
+
+          <!-- Oferta 2: Pack Doble Protección Lluvias -->
+          <article class="oferta-card">
+            <span class="oferta-tag">Especial Lluvias</span>
+            
+            <div class="oferta-header">
+              <h3 class="oferta-title">Pack "Doble Protección Tormenta"</h3>
+              <p class="oferta-description">
+                Ideal para desplazarte con seguridad durante lluvias intensas y transitar por calles anegadas sin mojarte.
+              </p>
+            </div>
+
+            <ul class="oferta-items-list">
+              <li class="oferta-item">
+                <svg class="oferta-item-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>1 Par de Botas impermeables antideslizantes (S/ 45.00)</span>
+              </li>
+              <li class="oferta-item">
+                <svg class="oferta-item-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>1 Impermeable de cuerpo completo con capucha (S/ 30.00)</span>
+              </li>
+              <li class="oferta-item">
+                <svg class="oferta-item-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Material impermeable sellado de alta resistencia</span>
+              </li>
+            </ul>
+
+            <div class="oferta-pricing">
+              <div>
+                <span class="oferta-price-old">Precio regular: S/ 75.00</span>
+                <span class="oferta-ahorro">Ahorras S/ 10.00</span>
+              </div>
+              <div class="oferta-price-new">S/ 65.00</div>
+            </div>
+
+            <button 
+              type="button" 
+              class="btn-primary" 
+              style="width: 100%;" 
+              onclick="window.EcoApp.agregarPackLluvias()"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+              <span>Agregar Pack Lluvias al Carrito</span>
+            </button>
+          </article>
+
+        </div>
+
+        <!-- Banner Informativo de Consejos de Prevención -->
+        <div class="prevention-tips-banner">
+          <div class="tips-icon-large">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M12 2a10 10 0 1 0 10 10H12V2z"></path>
+              <path d="M12 12L2.1 10.2"></path>
+              <path d="M12 12V22"></path>
+            </svg>
+          </div>
+          <div class="tips-content">
+            <h4>Recomendaciones Esenciales de Protección ante El Niño</h4>
+            <p>
+              Revisa los techos y limpia las canaletas de tu casa. Ten siempre a mano tu mochila de emergencia en un lugar accesible y desconecta artefactos eléctricos si el agua ingresa a tu vivienda.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         5. SECCIÓN CARRITO DE COMPRAS (COMPLETA Y FUNCIONAL)
+         ====================================================================== -->
+    <section class="carrito-section seccion-padding" id="carrito">
+      <div class="contenedor">
+        
+        <div class="section-header-centered">
+          <span class="section-kicker">Tu Compra Comunitaria</span>
+          <h2 class="section-title">Resumen del Carrito de Compras</h2>
+          <p class="section-subtitle">
+            Revisa tus artículos seleccionados, modifica las cantidades o finaliza tu pedido directamente a través de WhatsApp.
+          </p>
+        </div>
+
+        <div class="cart-layout">
+          
+          <!-- Lista detallada de productos en el carrito -->
+          <div class="cart-box">
+            <div class="cart-box-header">
+              <h3 class="cart-box-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+                <span>Artículos Seleccionados (<span class="cart-summary-count">0 artículos</span>)</span>
+              </h3>
+              
+              <button 
+                type="button" 
+                class="btn-clear-cart" 
+                onclick="window.EcoApp.vaciarCarrito()"
+                title="Vaciar todo el carrito"
+              >
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="3 6 5 6 21 6"></polyline>
+                  <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                </svg>
+                <span>Vaciar Carrito</span>
+              </button>
+            </div>
+
+            <!-- Contenedor dinámico de filas del carrito -->
+            <div class="cart-items-container" id="cart-items-main">
+              <!-- Se actualiza automáticamente desde js/script.js -->
+            </div>
+          </div>
+
+          <!-- Caja de totales y botón de WhatsApp -->
+          <div class="cart-summary-box">
+            <h3 class="cart-summary-title">Total de la Compra</h3>
+            
+            <div class="summary-row">
+              <span>Cantidad de artículos:</span>
+              <strong class="cart-summary-count">0</strong>
+            </div>
+
+            <div class="summary-row">
+              <span>Subtotal de productos:</span>
+              <strong class="cart-summary-subtotal">S/ 0.00</strong>
+            </div>
+
+            <div class="summary-row">
+              <span>Coordinación de entrega:</span>
+              <span style="color: var(--verde-primario); font-weight: 700;">Coordinar por WhatsApp</span>
+            </div>
+
+            <div class="summary-row total-row">
+              <span>Total a pagar:</span>
+              <span class="total-amount cart-summary-total">S/ 0.00</span>
+            </div>
+
+            <!-- BOTÓN PRINCIPAL DE PEDIDO POR WHATSAPP (REQUISITO 5) -->
+            <button 
+              type="button" 
+              class="btn-whatsapp-order" 
+              id="btn-checkout-whatsapp"
+              onclick="window.EcoApp.finalizarCompra()"
+            >
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.772.836 2.791.836h.004c3.181 0 5.768-2.586 5.768-5.766 0-3.18-2.587-5.766-5.772-5.766zm8.469 5.766c0 4.686-3.814 8.498-8.5 8.498-1.455 0-2.825-.371-4.032-1.017l-4.968 1.303 1.332-4.869c-.739-1.258-1.165-2.698-1.165-4.225 0-4.686 3.814-8.498 8.5-8.498 4.686 0 8.5 3.812 8.5 8.498z"/>
+              </svg>
+              <span>Finalizar Compra por WhatsApp</span>
+            </button>
+
+            <p class="whatsapp-note">
+              🔒 Al presionar el botón se abrirá WhatsApp con el mensaje estructurado que incluye tu saludo, productos, cantidades y total listos para enviar.
+            </p>
+
+            <div style="margin-top: 1.5rem; text-align: center;">
+              <a href="#contacto" style="font-size: 0.85rem; color: var(--azul-primario); font-weight: 600; text-decoration: underline;">
+                ¿Deseas ingresar tus datos de entrega en el formulario? Haz clic aquí
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         6. SECCIÓN CONTACTO Y FORMULARIO (CON FORMSPREE)
+         ====================================================================== -->
+    <section class="contacto-section seccion-padding" id="contacto">
+      <div class="contenedor">
+        
+        <div class="section-header-centered">
+          <span class="section-kicker">Atención Personalizada</span>
+          <h2 class="section-title">Contacto y Registro de Pedidos</h2>
+          <p class="section-subtitle">
+            Déjanos tus datos para coordinar el envío de tu pedido o consúltanos cualquier duda sobre los productos de emergencia.
+          </p>
+        </div>
+
+        <div class="contacto-grid">
+          
+          <!-- Columna Izquierda: Información de Contacto Editable -->
+          <div class="contacto-info-column">
+            
+            <div class="contacto-card">
+              <h3 class="contacto-card-title">Canales de Atención Directa</h3>
+              
+              <ul class="contacto-list">
+                
+                <!-- Correo Electrónico -->
+                <li class="contacto-list-item">
+                  <div class="contacto-item-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="contacto-item-text">
+                    <span class="contacto-item-label">Correo Electrónico</span>
+                    <span class="contacto-item-value display-email">
+                      <a href="mailto:ariana.rosado.capilla044@gmail.com">ariana.rosado.capilla044@gmail.com</a>
+                    </span>
+                  </div>
+                </li>
+
+                <!-- Número de Celular -->
+                <li class="contacto-list-item">
+                  <div class="contacto-item-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </div>
+                  <div class="contacto-item-text">
+                    <span class="contacto-item-label">Número de Celular</span>
+                    <span class="contacto-item-value display-telefono">
+                      <a href="tel:941862027">941862027</a>
+                    </span>
+                  </div>
+                </li>
+
+                <!-- WhatsApp -->
+                <li class="contacto-list-item">
+                  <div class="contacto-item-icon green">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.772.836 2.791.836h.004c3.181 0 5.768-2.586 5.768-5.766 0-3.18-2.587-5.766-5.772-5.766zm8.469 5.766c0 4.686-3.814 8.498-8.5 8.498-1.455 0-2.825-.371-4.032-1.017l-4.968 1.303 1.332-4.869c-.739-1.258-1.165-2.698-1.165-4.225 0-4.686 3.814-8.498 8.5-8.498 4.686 0 8.5 3.812 8.5 8.498z"/>
+                    </svg>
+                  </div>
+                  <div class="contacto-item-text">
+                    <span class="contacto-item-label">Pedidos por WhatsApp</span>
+                    <span class="contacto-item-value display-whatsapp">
+                      <a href="https://wa.me/51941862027" target="_blank" rel="noopener noreferrer">+51 941 862 027</a>
+                    </span>
+                  </div>
+                </li>
+
+                <!-- Ubicación y Horario -->
+                <li class="contacto-list-item">
+                  <div class="contacto-item-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div class="contacto-item-text">
+                    <span class="contacto-item-label">Horario de Emergencia</span>
+                    <span class="contacto-item-value">Lunes a Domingo: 7:00 AM - 9:00 PM (Guardia activa ante alertas climáticas)</span>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <!-- Columna Derecha: Formulario Preparado para Formspree (REQUISITO 6) -->
+          <div class="form-card" id="form-card-container">
+            <h3 class="form-title">Formulario de Contacto y Pedidos</h3>
+            <p class="form-subtitle">Completa tus datos obligatorios para registrar tu pedido tanto por correo electrónico como por WhatsApp.</p>
+
+            <!-- Previsualización del Pedido en el Formulario -->
+            <div id="form-cart-summary" class="form-order-preview">
+              <div class="form-order-preview-info">
+                <span class="form-order-preview-title">Resumen de tu Compra</span>
+                <span class="form-order-preview-detail" id="form-preview-text">0 artículos seleccionados (S/ 0.00)</span>
+              </div>
+              <a href="#carrito" class="form-order-preview-link">Modificar artículos ➜</a>
+            </div>
+
+            <!-- Formulario conectado a Formspree -->
+            <form 
+              id="contact-order-form" 
+              action="https://formspree.io/f/xoeelojk" 
+              method="POST"
+              novalidate
+            >
+              <!-- Campos Ocultos con el detalle de la compra para que lleguen al correo -->
+              <input type="hidden" name="resumen_pedido" id="form-hidden-pedido" value="" />
+              <input type="hidden" name="total_pedido" id="form-hidden-total" value="" />
+              <input type="hidden" name="articulos_pedido" id="form-hidden-articulos" value="" />
+              
+              <!-- Nombres y Apellidos -->
+              <div class="form-group">
+                <label for="form-nombres" class="form-label">
+                  <span>Nombres y apellidos</span>
+                  <span class="required-mark" aria-hidden="true">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="form-nombres" 
+                  name="nombres_apellidos" 
+                  class="form-input" 
+                  placeholder="Ej. Juan Pérez Quispe" 
+                  required
+                />
+                <span class="form-error-msg" id="error-form-nombres"></span>
+              </div>
+
+              <!-- Celular y Correo en 2 Columnas (AMBOS OBLIGATORIOS) -->
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label for="form-celular" class="form-label">
+                    <span>Número de celular</span>
+                    <span class="required-mark" aria-hidden="true">*</span>
+                  </label>
+                  <input 
+                    type="tel" 
+                    id="form-celular" 
+                    name="celular" 
+                    class="form-input" 
+                    placeholder="Ej. 941862027" 
+                    required
+                  />
+                  <span class="form-error-msg" id="error-form-celular"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-email" class="form-label">
+                    <span>Correo electrónico</span>
+                    <span class="required-mark" aria-hidden="true">*</span>
+                  </label>
+                  <input 
+                    type="email" 
+                    id="form-email" 
+                    name="email" 
+                    class="form-input" 
+                    placeholder="ejemplo@correo.com"
+                    required
+                  />
+                  <span class="form-error-msg" id="error-form-email"></span>
+                </div>
+              </div>
+
+              <!-- Dirección (Opcional - coordinar por WhatsApp) -->
+              <div class="form-group">
+                <label for="form-direccion" class="form-label">
+                  <span>Dirección de entrega</span>
+                  <span style="font-size: 0.75rem; color: #64748B;">(opcional - coordinar por WhatsApp)</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="form-direccion" 
+                  name="direccion" 
+                  class="form-input" 
+                  placeholder="Calle, número, distrito o dejar en blanco para coordinar por WhatsApp" 
+                />
+                <span class="form-error-msg" id="error-form-direccion"></span>
+              </div>
+
+              <!-- Método de Entrega -->
+              <div class="form-group">
+                <label for="form-metodo-entrega" class="form-label">
+                  <span>Método de entrega</span>
+                  <span class="required-mark" aria-hidden="true">*</span>
+                </label>
+                <select id="form-metodo-entrega" name="metodo_entrega" class="form-select" required>
+                  <option value="">-- Selecciona una modalidad --</option>
+                  <option value="Envío a domicilio">Envío directo a domicilio (Coordinar en zona)</option>
+                  <option value="Recojo en almacén comunitario">Recojo en punto de entrega comunitario</option>
+                  <option value="Envío prioritario por emergencia">Envío prioritario por alerta de lluvia/emergencia</option>
+                </select>
+                <span class="form-error-msg" id="error-form-metodo-entrega"></span>
+              </div>
+
+              <!-- Observaciones -->
+              <div class="form-group">
+                <label for="form-observaciones" class="form-label">
+                  <span>Observaciones o indicaciones especiales</span>
+                  <span style="font-size: 0.75rem; color: #64748B;">(opcional)</span>
+                </label>
+                <textarea 
+                  id="form-observaciones" 
+                  name="observaciones" 
+                  rows="3" 
+                  class="form-textarea" 
+                  placeholder="Detalla si necesitas tallas específicas, horarios de entrega o referencias de llegada..."
+                ></textarea>
+              </div>
+
+              <!-- Botón Enviar Pedido Completo -->
+              <button type="submit" class="btn-submit-form" id="btn-submit-contact">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Confirmar Pedido (Enviar por Correo y WhatsApp)</span>
+              </button>
+
+              <div id="form-status-alert" class="form-status-alert"></div>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       PIE DE PÁGINA (FOOTER)
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="contenedor footer-grid">
+      
+      <!-- Columna 1: Marca y Propósito -->
+      <div>
+        <div class="footer-brand">
+          <img 
+            src="img/logo.png" 
+            alt="Logo EcoPrevención Store" 
+            class="footer-logo-img"
+            onerror="this.onerror=null; this.src='img/linterna.jpg';"
+          />
+          <span class="footer-brand-name">EcoPrevención Store</span>
+        </div>
+        <p class="footer-description">
+          Emprendimiento social dedicado a fortalecer la preparación comunitaria ante los efectos del Fenómeno de El Niño. Artículos de emergencia accesibles para todas las familias.
+        </p>
+        <p style="font-size: 0.82rem; color: #64748B;">
+          Colores corporativos: Azul (#1976D2) · Verde (#43A047) · Blanco (#FFFFFF)
+        </p>
+      </div>
+
+      <!-- Columna 2: Enlaces Rápidos -->
+      <div>
+        <h4 class="footer-col-title">Secciones</h4>
+        <ul class="footer-links">
+          <li><a href="#inicio" class="footer-link">Inicio</a></li>
+          <li><a href="#nosotros" class="footer-link">Nosotros</a></li>
+          <li><a href="#productos" class="footer-link">Catálogo</a></li>
+          <li><a href="#ofertas" class="footer-link">Combos y Descuentos</a></li>
+          <li><a href="#carrito" class="footer-link">Carrito de Compras</a></li>
+          <li><a href="#contacto" class="footer-link">Contacto y Formspree</a></li>
+        </ul>
+      </div>
+
+      <!-- Columna 3: Números de Emergencia Nacional -->
+      <div>
+        <h4 class="footer-col-title">Centrales de Ayuda</h4>
+        <ul class="footer-links">
+          <li style="font-size: 0.88rem; color: #E2E8F0;">🚨 <strong>INDECI (Emergencias):</strong> 115</li>
+          <li style="font-size: 0.88rem; color: #E2E8F0;">🚒 <strong>Bomberos Voluntarios:</strong> 116</li>
+          <li style="font-size: 0.88rem; color: #E2E8F0;">👮 <strong>Policía Nacional:</strong> 105</li>
+          <li style="font-size: 0.88rem; color: #E2E8F0;">🚑 <strong>SAMU (Ambulancia):</strong> 106</li>
+        </ul>
+      </div>
+
+      <!-- Columna 4: Información de Contacto -->
+      <div>
+        <h4 class="footer-col-title">Atención al Cliente</h4>
+        <ul class="footer-links">
+          <li><strong style="color: #FFFFFF;">Celular:</strong> <span class="display-telefono"><a href="tel:941862027">941862027</a></span></li>
+          <li><strong style="color: #FFFFFF;">WhatsApp:</strong> <span class="display-whatsapp"><a href="https://wa.me/51941862027" target="_blank" rel="noopener noreferrer">+51 941 862 027</a></span></li>
+          <li><strong style="color: #FFFFFF;">Email:</strong> <span class="display-email"><a href="mailto:ariana.rosado.capilla044@gmail.com">ariana.rosado.capilla044@gmail.com</a></span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="contenedor footer-bottom">
+      <span>&copy; EcoPrevención Store - Todos los derechos reservados. Página web comercial desarrollada con HTML5, CSS3 y JavaScript ES6+ nativo.</span>
+      <span class="footer-legal-tag">Desarrollado para prevención comunitaria</span>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       DRAWER LATERAL DEL CARRITO (ACCESIBLE Y FLUIDO)
+       ======================================================================== -->
+  <div class="cart-drawer-backdrop" id="cart-drawer-backdrop" aria-hidden="true"></div>
+  
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Carrito de compras deslizante" role="dialog" aria-modal="true">
+    <div class="cart-drawer-header">
+      <h3 class="cart-drawer-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+        <span>Tu Carrito (<span class="cart-badge-count">0</span>)</span>
+      </h3>
+      <button 
+        type="button" 
+        class="btn-close-drawer" 
+        onclick="window.EcoApp.cerrarDrawer()" 
+        aria-label="Cerrar carrito"
+      >
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <div class="cart-drawer-body" id="cart-drawer-items">
+      <!-- Elementos del carrito cargados dinámicamente -->
+    </div>
+
+    <div class="cart-drawer-footer">
+      <div class="summary-row total-row" style="margin-top: 0; padding-top: 0; border: none; margin-bottom: 1rem;">
+        <span>Total:</span>
+        <span class="total-amount cart-summary-total">S/ 0.00</span>
+      </div>
+
+      <button 
+        type="button" 
+        class="btn-whatsapp-order" 
+        onclick="window.EcoApp.finalizarCompra()"
+      >
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.772.836 2.791.836h.004c3.181 0 5.768-2.586 5.768-5.766 0-3.18-2.587-5.766-5.772-5.766zm8.469 5.766c0 4.686-3.814 8.498-8.5 8.498-1.455 0-2.825-.371-4.032-1.017l-4.968 1.303 1.332-4.869c-.739-1.258-1.165-2.698-1.165-4.225 0-4.686 3.814-8.498 8.5-8.498 4.686 0 8.5 3.812 8.5 8.498z"/>
+        </svg>
+        <span>Pedir por WhatsApp</span>
+      </button>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.5rem;">
+        <button type="button" class="btn-clear-cart" onclick="window.EcoApp.vaciarCarrito()">
+          Vaciar Carrito
+        </button>
+        <a href="#carrito" style="font-size: 0.82rem; color: var(--azul-primario); text-decoration: underline;" onclick="window.EcoApp.cerrarDrawer()">
+          Ver pantalla completa
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       BOTÓN FLOTANTE RÁPIDO DE WHATSAPP (REQUISITO 5)
+       ======================================================================== -->
+  <button 
+    type="button" 
+    class="floating-whatsapp-btn" 
+    onclick="window.EcoApp.finalizarCompra()" 
+    aria-label="Contactar y pedir por WhatsApp"
+    title="Pedir por WhatsApp"
+  >
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.669-.699c.969.54 1.772.836 2.791.836h.004c3.181 0 5.768-2.586 5.768-5.766 0-3.18-2.587-5.766-5.772-5.766zm8.469 5.766c0 4.686-3.814 8.498-8.5 8.498-1.455 0-2.825-.371-4.032-1.017l-4.968 1.303 1.332-4.869c-.739-1.258-1.165-2.698-1.165-4.225 0-4.686 3.814-8.498 8.5-8.498 4.686 0 8.5 3.812 8.5 8.498z"/>
+    </svg>
+    <span class="floating-whatsapp-tooltip">¡Haz tu pedido por WhatsApp!</span>
+  </button>
+
+  <!-- ========================================================================
+       NOTIFICACIÓN TOAST
+       ======================================================================== -->
+  <div class="toast-notification" id="toast-notification" role="status" aria-live="polite">
+    <span id="toast-message">Mensaje</span>
+    <button type="button" class="toast-btn-action" id="toast-action-btn" style="display: none;"></button>
+  </div>
+
+  <!-- SCRIPT ES6+ NATIVO -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>

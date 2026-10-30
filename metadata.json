@@ -1,0 +1,6 @@
+{
+  "name": "EcoPrevención Store",
+  "description": "Tienda virtual comunitaria de artículos esenciales para prevenir y enfrentar el Fenómeno de El Niño: linternas LED, botas impermeables, mochilas de emergencia y botiquines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
